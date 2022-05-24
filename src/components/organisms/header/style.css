@@ -1,0 +1,11 @@
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 250px 600px 540px;
+    grid-gap: 10px;
+    background-color: #121317;
+    text-align: center;
+}

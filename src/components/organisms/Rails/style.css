@@ -1,0 +1,12 @@
+.rails {
+    display: grid;
+    grid-template-columns: 1% 30% 65% 1%;
+    padding-top: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .rails-indicator-position {
+      display: flex;
+      padding-left: 80px;
+  }
