@@ -1,6 +1,6 @@
 # Discovey Plus Home 
 
-Discovery Plus Home Page Using Atomic Design Pattern
+Discovery Plus static Home Page Using Atomic Design Pattern
 
 ## Getting Started with Create React App
 
