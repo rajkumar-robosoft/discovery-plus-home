@@ -1,17 +1,10 @@
-
-import './App.css';
-import Header from './components/organisms/header';
-import Rails from './components/organisms/Rails';
-
-
+import "./App.css";
+import HomePage from "./components/pages/home";
 
 function App() {
   return (
     <div className="App">
-
-      <Header />
-      <Rails />
-      
+      <HomePage />
     </div>
   );
 }

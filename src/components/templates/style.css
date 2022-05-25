@@ -1,0 +1,7 @@
+@import "../../css/color.css";
+.main {
+    max-width: 1440px;
+    margin:0 auto;
+    background-color: var(--brand-dark);
+    padding:0 15px;
+}

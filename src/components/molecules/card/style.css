@@ -1,0 +1,41 @@
+.card-container {
+  text-align: center;
+}
+.card-container:hover .bottom-center {
+  margin-top: -50px;
+}
+
+.bottom-center {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 1;
+  font-family: "Roboto-Medium", sans-serif;
+  /* margin-bottom: 80px; */
+}
+@media (max-width: 576px) {
+  .card-img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50% !important;
+  }
+  .card-container:hover .bottom-center {
+    margin-top:0;
+  }
+  
+  .bottom-center {
+
+    margin-top: 0;
+  }
+  .card-text {
+    font-size:14px;
+    font-weight: normal;
+  }
+}

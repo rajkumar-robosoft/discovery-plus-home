@@ -4,3 +4,9 @@
     align-items: center;
     position: relative;
 }
+.logo-link  {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}

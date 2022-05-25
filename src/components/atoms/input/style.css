@@ -1,3 +1,4 @@
+@import "../../../css/color.css";
 .normal-input {
     display: inline-block;
     min-width: 200px;
@@ -13,7 +14,7 @@
     margin-left: 30px;
   }
 .search-input {
-    width: 360px;
+    /* width: 360px; */
     background-color: transparent;
     outline: none;
     font-size: 16px;

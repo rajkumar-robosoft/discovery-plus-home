@@ -1,0 +1,33 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-inp {
+    min-width:250px;
+}
+.search-icon {
+    margin-left: -40px;
+}
+@media (min-width: 1440pc) { 
+    .search-inp {
+        min-width:360px;
+    }
+}
+@media (min-width: 1200px) { 
+    .search-inp {
+        min-width:300px;
+    }
+}
+@media (max-width: 576px) {
+
+    .search-inp {
+        display: none;
+    }
+    .search-icon {
+        position: absolute;
+        right: 20px;
+    }
+
+}
+

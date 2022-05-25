@@ -1,12 +1,48 @@
+.rails-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 .rails {
-    display: grid;
-    grid-template-columns: 1% 30% 65% 1%;
-    padding-top: 50px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
 
-  .rails-indicator-position {
-      display: flex;
-      padding-left: 80px;
-  }
+  justify-content: center;
+}
+.rail-box {
+  width: 210px;
+  height: 110px;
+}
+
+.rails > div {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width:0px;
+}
+.pos-abs {
+    position: absolute;
+    z-index: 999999;
+}
+@media (max-width: 576px) {
+
+    .rail-box {
+        width: 65px;
+        height: 100px;
+    
+      }
+      .rails-container {
+       
+        margin-top:-10px;
+        position: relative;
+        z-index: 99999;
+      }
+
+}
