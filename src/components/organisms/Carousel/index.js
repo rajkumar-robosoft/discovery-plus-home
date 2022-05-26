@@ -82,7 +82,7 @@ const Carousel = () => {
         return (
           index === activeContent && (
             <div className="carousel" key={index}>
-              <Link onClick={nextContent} className="nav-icon">
+              <Link onClick={prevContent} className="nav-icon">
                 <Image src={PrevIcon} alt="Previous" width="24" />
               </Link>
               <CarouselDesc
@@ -100,7 +100,7 @@ const Carousel = () => {
                 alt={item.image.imgAlt}
                 width="880"
               />
-              <Link onClick={prevContent} className="nav-icon">
+              <Link onClick={nextContent} className="nav-icon">
                 <Image src={NextIcon} alt="Next" width="24" />
               </Link>
             </div>
