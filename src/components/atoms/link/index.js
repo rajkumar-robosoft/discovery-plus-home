@@ -16,9 +16,10 @@ const Link = ({id, name, url, rel, target, style, onClick, className, children, 
       name={name}
       href={url}
       rel={rel}
-      onClick={onclick}
+      onClick={onClick}
       target={target}
       className={myClass}
+      {...props}
     >
       {children}
     </a>
