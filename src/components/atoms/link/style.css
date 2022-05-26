@@ -9,12 +9,12 @@
 }
 
 .txt :hover {
-  color: #ffffff;
+  color: var(--neutral-10);
 }
 
 .txt-btn {
   text-align: center;
-  color: #ffffff;
+  color: var(--neutral-10);
 }
 
 

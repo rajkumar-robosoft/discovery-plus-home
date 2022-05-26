@@ -2,7 +2,7 @@
 .button {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: var(--neutral-1);
   text-align: center;
   background-color: transparent;
   border: 1px solid transparent;
@@ -10,7 +10,7 @@
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  background: #ccc;
+  background: var(--neutral-9);
   margin: 2px;
   outline: none;
   -webkit-user-select: none;

@@ -1,3 +1,4 @@
+@import "../../../css/color.css";
 .card-container {
   text-align: center;
 }
@@ -7,7 +8,7 @@
 
 .bottom-center {
   display: flex;
-  color: white;
+  color: var(--neutral-10);
   justify-content: center;
   margin-top: -40px;
 }
@@ -15,7 +16,7 @@
 .card-text {
   font-size: 20px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--neutral-10);
   z-index: 1;
   font-family: "Roboto-Medium", sans-serif;
   /* margin-bottom: 80px; */

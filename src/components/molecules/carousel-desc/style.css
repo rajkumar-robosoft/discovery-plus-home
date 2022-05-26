@@ -1,3 +1,5 @@
+@import "../../../css/color.css";
+
 .carousel-desc {
   padding: 46px 20px 0px 20px;
   text-align: left;
@@ -21,7 +23,7 @@
   font-family: "Roboto-Bold", sans-serif;
   font-weight: bold;
   font-size: 40px;
-  color: #ffffff;
+  color: var(--neutral-10);
 }
 
 .carousel-subheading {
@@ -37,24 +39,24 @@
   padding: 5px 8px;
   margin-right: 8px;
   font-family: "Roboto-Regular", sans-serif;
-  background: rgb(40, 46, 61);
+  background: var(--neutral-2);
 }
 
 .carousel-play {
   font-size: 20px;
   font-weight: 500;
-  color: #ffffff;
+  color: var(--neutral-10);
   padding-left: 12px;
 }
 
 .category-text {
   font-size: 20px;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--neutral-10);
   font-family: "Roboto-Medium", sans-serif;
 }
 .play-text {
-  color: #ffffff;
+  color: var(--neutral-10);
   font-size: 20px;
 }
 @media (max-width: 767px) {

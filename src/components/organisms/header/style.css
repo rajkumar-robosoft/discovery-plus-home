@@ -1,3 +1,4 @@
+@import "../../../css/color.css";
 .header {
   display: flex;
   align-items: center;
@@ -17,12 +18,12 @@
   width: 10%;
 }
 .txt-link {
-  color: #838991;
+  color: var(--neutral-6);
   margin-right: 20px;
 }
 
 .txt-link-active {
-  color: #ffffff;
+  color: var(--neutral-10);
   font-weight: 600;
 }
 @media (max-width: 991px) {
