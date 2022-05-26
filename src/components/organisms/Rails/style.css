@@ -15,13 +15,13 @@
   justify-content: center;
 }
 .rail-box {
-  width: 210px;
-  height: 110px;
+  width: 212px;
+  height: 130px;
 }
 
 .rails > div {
-  margin-right: 10px;
-  padding: 10px;
+  margin:0 5px;
+  padding: 8px;
 }
 
 ::-webkit-scrollbar {
@@ -45,4 +45,7 @@
         z-index: 99999;
       }
 
+      .rails > div {
+        padding: 10px;
+      }
 }
